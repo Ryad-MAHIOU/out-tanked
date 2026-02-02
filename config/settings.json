@@ -1,0 +1,86 @@
+{
+    "projects": {
+        "0CC134BC-5539-7F27-2116-565037005F82": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [
+                "5D5D6AE2-2D64-6F1D-6EE2-3EB747FD4F4D",
+                "78B77A3F-735F-3805-1E71-40C740E91345"
+            ],
+            "name": "networkLib",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "4E6D0938-2D50-500E-5570-6C6922537F86": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [
+                "5D5D6AE2-2D64-6F1D-6EE2-3EB747FD4F4D",
+                "78B77A3F-735F-3805-1E71-40C740E91345"
+            ],
+            "name": "gameplayLib",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "5D5D6AE2-2D64-6F1D-6EE2-3EB747FD4F4D": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "0CC134BC-5539-7F27-2116-565037005F82",
+                "4E6D0938-2D50-500E-5570-6C6922537F86"
+            ],
+            "dependents": [],
+            "name": "Out-tanked",
+            "property-lib": false,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": true
+        }
+    },
+    "projects_name_to_guid": {
+        "Out-tanked": "5D5D6AE2-2D64-6F1D-6EE2-3EB747FD4F4D",
+        "Server": "78B77A3F-735F-3805-1E71-40C740E91345",
+        "gameplayLib": "4E6D0938-2D50-500E-5570-6C6922537F86",
+        "networkLib": "0CC134BC-5539-7F27-2116-565037005F82"
+    },
+    "solution_guid": "58E359CF-7FF0-0E0E-30A2-36CD1C877CDE",
+    "solution_name": "Out-Tanked",
+    "startup_project": "",
+    "version": "2.0"
+}
